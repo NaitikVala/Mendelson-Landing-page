@@ -1,0 +1,817 @@
+body, html {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+
+}
+/*------------------------------ rectangle-one --------------------*/
+/* .rectangle-one {
+    width: 1600px;
+    height: 899px;
+    top: -5px;
+} */
+.asset1 {
+    width: 119px;
+    height: 111px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.logo1 {
+    width: 295px;
+    height: 95px;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+/*---------------- Navbar ----------------*/
+.navbar-section {
+    width: 472px;
+    height: 21px;
+    position: absolute;
+    top: 47px;
+    right: 130px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Roboto", "serif";
+    line-height: 21.09px;
+    gap: 0px;
+    opacity: 1;
+    text-align: left;
+}
+.navbar-nav .nav-item {
+    color: black;
+}
+
+.asset2 {
+    position: absolute;
+    width: 359px;
+    height: 376px;
+    top: -9px;
+    right: -77px;
+}
+.group-one {
+    width: 1426px;
+    height: 789.19px;
+    top: 116;
+    left: -29px;
+    right: 203px;
+}
+.first {
+    position: absolute;
+    width: 459px;
+    height: 198px;
+    top: 161px;
+    left: 955px;
+    right: 215px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 66.36px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;
+}
+.first-para {
+    position: absolute;
+    width: 544px;
+    height: 67px;
+    top: 384px;
+    left: 955px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.33px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;
+    
+}
+.group-one .vector {
+    position: absolute;
+    z-index: 3;
+    width: 643.63px;
+    height: 438.44px;
+    top: 466.75px;
+    left: 142.19px;
+}
+
+.Graphic {
+    position: absolute;
+    width: 1403px;
+    height: 789.19px;
+    top: 116px;
+    left: -6px;
+}
+
+.group-one .asset3 {
+    position: absolute;
+    width: 266px;
+    height: 580px;
+    top: 325px;
+    left: -29px;
+}
+
+.asset4 {
+    position: absolute;
+    width: 207px;
+    height: 249px;
+    top: 650px;
+    right: -33px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/*-------------------------- ABOUT-US------------------------- */
+
+.about-us {
+    position: absolute;
+    width: 238px;
+    height: 57px;
+    top: 983px;
+    left: 812px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.88px;
+}
+
+.about-us-img {
+    position: absolute;
+    width: 612px;
+    height: 408px;
+    top: 1074px;
+    left: 120px;
+}
+
+.group-30 {
+    position: absolute;
+    width: 238px;
+    height: 7px;
+    top: 1042px;
+    left: 812px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.about-para {
+    position: absolute;
+    width: 658px;
+    height: 127px;
+    top: 1070px;
+    left: 812px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.55px;
+}
+
+.engage-icon {
+    position: absolute;
+    width: 40px;
+    height: 41px;
+    top: 1237px;
+    left: 812px;
+}
+
+.commu-icon {
+    position: absolute;
+    width: 43px;
+    height: 41px;
+    top: 1237px;
+    left: 1153px;
+}
+
+.about-us-engage {
+    position: absolute;
+    width: 163px;
+    height: 28px;
+    top: 1303px;
+    left: 812px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.44px;
+}
+
+.about-us-engage-para {
+    position: absolute;
+    width: 273px;
+    height: 89px;
+    top: 1346px;
+    left: 812px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.55px;
+}
+
+.about-us-commu {
+    position: absolute;
+    width: 216px;
+    height: 28px;
+    top: 1303px;
+    left: 1153px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.44px;
+}
+
+.about-us-commu-para {
+    position: absolute;
+    width: 273px;
+    height: 112px;
+    top: 1346px;
+    left: 1158px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.55px;
+}
+
+/* <!---------------------------- Service-Section -----------------> */
+
+.service {
+    position: absolute;
+    width: 233px;
+    height: 57px;
+    top: 1587px;
+    left: 684px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.88px;
+}
+.group-31 {
+    position: absolute;
+    width: 238px;
+    height: 7px;
+    top: 1646px;
+    left: 684px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.asset5 {
+    position: absolute;
+    width: 366px;
+    height: 431px;
+    top: 1468px;
+    left: -52px;
+}
+
+.services-engage {
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    top: 1746px;
+    left: 459px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49.77px;
+}
+
+.services-engage-para {
+    position: absolute;
+    width: 523px;
+    height: 126px;
+    top: 1816px;
+    left: 220px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.6px;
+    text-align: right;
+}
+
+.engage-vector {
+    position: absolute;
+    width: 454px;
+    height: 375px;
+    top: 1694px;
+    left: 902px;
+}
+
+.comm-vector {
+    position: absolute;
+    width: 487px;
+    height: 251px;
+    top: 2147px;
+    left: 261px;
+}
+
+.services-commu {
+    position: absolute;
+    width: 478px;
+    height: 50px;
+    top: 2210px;
+    left: 918px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49.77px;
+}
+
+.services-commu-para {
+    position: absolute;
+    width: 478px;
+    height: 111px;
+    top: 2280px;
+    left: 918px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.55px;
+}
+
+.asset6 {
+    position: absolute;
+    width: 250px;
+    height: 431px;
+    top: 2147px;
+    right: -30px;
+}
+
+.services-faci {
+    position: absolute;
+    width: 279px;
+    height: 50px;
+    top: 2534px;
+    left: 415px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49.77px;
+}
+
+.services-faci-para {
+    position: absolute;
+    width: 521px;
+    height: 139px;
+    top: 2604px;
+    left: 173px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.6px;
+    text-align: right;
+}
+
+.faci-vect {
+    position: absolute;
+    width: 481px;
+    height: 386px;
+    top: 2464px;
+    left: 852px;
+}
+
+.asset7 {
+    position: absolute;
+    width: 259px;
+    height: 471px;
+    top: 2633px;
+    left: -52px;
+}
+
+.consult-vect {
+    position: absolute;
+    width: 523px;
+    height: 363px;
+    top: 2886px;
+    left: 220px;
+}
+
+.services-consult {
+    position: absolute;
+    width: 407px;
+    height: 100px;
+    top: 3006px;
+    left: 926px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49.77px;
+    text-align: left;
+}
+
+.services-consult-para {
+    position: absolute;
+    width: 454px;
+    height: 114px;
+    top: 3126px;
+    left: 926px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26.55px;
+    text-align: left;
+}
+
+.asset8 {
+    position: absolute;
+    width: 336px;
+    height: 431px;
+    top: 3101px;
+    left: 1379.75px;
+    transform: rotate(4.76deg)
+}
+
+.services-training {
+    position: absolute;
+    width: 478px;
+    height: 50px;
+    top: 3328px;
+    left: 264px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49.77px;
+    text-align: left;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.services-training-para {
+    position: absolute;
+    width: 520px;
+    height: 133px;
+    top: 3398px;
+    left: 222px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.6px;
+    text-align: right;
+}
+
+.training-vector {
+    position: absolute;
+    width: 454px;
+    height: 349px;
+    top: 3309px;
+    left: 926px;
+}
+
+.asset5_2 {
+    position: absolute;
+    width: 366px;
+    height: 431px;
+    top: 3624px;
+}
+
+/*---------------------- our-team-section ---------------------*/
+
+.our-team {
+    position: absolute;
+    width: 241px;
+    height: 57px;
+    top: 3840px;
+    left: 685px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 56.88px;
+}
+
+.group-32 {
+    position: absolute;
+    width: 241px;
+    height: 7px;
+    top: 3899px;
+    left: 685px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.group25 {
+    position: absolute;
+    width: 278px;
+    height: 302px;
+    top: 3936px;
+    left: 244px;
+}
+
+.group26 {
+    position: absolute;
+    width: 278px;
+    height: 300px;
+    top: 3937px;
+    left: 661px;
+}
+
+.group27 {
+    position: absolute;
+    width: 276px;
+    height: 300px;
+    top: 3937px;
+    left: 1078px;
+}
+
+.asset8_3 {
+    position: absolute;
+    width: 371.17px;
+    height: 476.12px;
+    top: 4047px;
+    left: 1363.23px;
+    transform: rotate(4.76deg);
+}
+
+/* <!------------------- our-project-section -----------------> */
+
+.our-project {
+    position: absolute;
+    width: 362px;
+    height: 57px;
+    top: 4356px;
+    left: 674px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56.88px;
+}
+
+.group33 {
+    position: absolute;
+    width: 362px;
+    height: 7px;
+    top: 4413px;
+    left: 674px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.project1 {
+    position: absolute;
+    width: 554px;
+    height: 667px;
+    top: 4447px;
+    left: 235px;
+}
+
+.project2 {
+    position: absolute;
+    width: 554px;
+    height: 322px;
+    top: 4447px;
+    left: 811px;
+}
+
+.project3 {
+    position: absolute;
+    width: 554px;
+    height: 323px;
+    top: 4791px;
+    left: 811px;
+}
+
+.asset9 {
+    position: absolute;
+    width: 179px;
+    height: 404px;
+    top: 5176px;
+    left: -26px;
+}
+
+/* <!-------------------- our-client's-section ------------------> */
+
+.our-client {
+    position: absolute;
+    width: 310px;
+    height: 57px;
+    top: 5242px;
+    left: 645px;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 56.88px;
+}
+
+.group34 {
+    position: absolute;
+    width: 310px;
+    height: 7px;
+    top: 5301px;
+    left: 645px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+.client1 {
+    position: absolute;
+    width: 212px;
+    height: 161px;
+    top: 5348px;
+    left: 233px;
+}
+
+.client2 {
+    position: absolute;
+    width: 129px;
+    height: 131px;
+    top: 5363px;
+    left: 460px;
+}
+
+.client3 {
+    position: absolute;
+    width: 222px;
+    height: 62px;
+    top: 5398px;
+    left: 667px;
+}
+
+.client4 {
+    position: absolute;
+    width: 143px;
+    height: 107px;
+    top: 5375px;
+    left: 952px;
+}
+
+.client5 {
+    position: absolute;
+    width: 163px;
+    height: 63px;
+    top: 5397px;
+    left: 1182px;
+}
+
+.client6 {
+    position: absolute;
+    width: 185px;
+    height: 106px;
+    top: 5584px;
+    left: 233px;
+}
+
+.client7 {
+    position: absolute;
+    width: 268px;
+    height: 120px;
+    top: 5574px;
+    left: 475px;
+}
+
+.client8 {
+    position: absolute;
+    width: 246px;
+    height: 99px;
+    top: 5584px;
+    left: 799px;
+}
+
+.client9 {
+    position: absolute;
+    width: 243px;
+    height: 58px;
+    top: 5605px;
+    left: 1102px;
+}
+
+/* <!-------------------- contact-section ------------------------> */
+
+.rectangle2 {
+    position: absolute;
+    width: 1340px;
+    height: 208px;
+    top: 5769px;
+    left: 130px;
+}
+
+.social {
+    position: absolute;
+    width: 49px;
+    height: 35px;
+    top: 5811px;
+    left: 244px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35.36px;
+}
+
+.social-para {
+    position: absolute;
+    width: 67px;
+    height: 93px;
+    top: 5843px;
+    left: 244px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30.94px;
+}
+
+.explore {
+    position: absolute;
+    width: 61px;
+    height: 35px;
+    top: 5811px;
+    left: 491px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35.36px;
+}
+
+.explore-para {
+    position: absolute;
+    width: 60px;
+    height: 93px;
+    top: 5843px;
+    left: 491px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30.94px;
+}
+
+.contact {
+    position: absolute;
+    width: 65px;
+    height: 35px;
+    top: 5811px;
+    left: 731px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35.36px;
+}
+
+.contact-para {
+    position: absolute;
+    width: 196px;
+    height: 93px;
+    top: 5843px;
+    left: 731px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30.94px;
+}
+
+.email {
+    position: absolute;
+    width: 44px;
+    height: 35px;
+    top: 5811px;
+    left: 1107px;
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35.36px;
+}
+
+.email-para {
+    position: absolute;
+    width: 252px;
+    height: 31px;
+    top: 5843px;
+    left: 1107px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30.94px;
+}
+
+.fb {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5851px;
+    left: 214px;
+}
+
+.li {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5882px;
+    left: 214px;
+}
+
+.group20 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5914px;
+    left: 214px;
+}
+
+/* ----------------------------copyright-section---------------------- */
+
+.copyright {
+    position: absolute;
+    width: 346px;
+    height: 17px;
+    top: 5999px;
+    left: 627px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.59px;
+}
